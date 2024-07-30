@@ -169,16 +169,17 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ujZ-K8-Y7b" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jzT-BY-qym" secondAttribute="bottom" constant="8" symbolic="YES" id="1he-ut-7fF"/>
+                            <constraint firstItem="WRE-kX-svS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jzT-BY-qym" secondAttribute="bottom" constant="8" symbolic="YES" id="2WY-X4-UQV"/>
                             <constraint firstItem="WRE-kX-svS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129.66666666666666" id="7fn-2X-Dgh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WRE-kX-svS" secondAttribute="trailing" constant="129.66666666666663" id="98m-jh-7EP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jzT-BY-qym" secondAttribute="trailing" constant="16" id="GKi-JD-eZG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ujZ-K8-Y7b" secondAttribute="bottom" constant="64" id="Ndo-Wf-kBg"/>
-                            <constraint firstItem="WRE-kX-svS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jzT-BY-qym" secondAttribute="bottom" constant="8" symbolic="YES" id="QgE-zo-nWV"/>
                             <constraint firstItem="jzT-BY-qym" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XCo-mr-bpC"/>
                             <constraint firstItem="WRE-kX-svS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bS9-Aq-8OD"/>
                             <constraint firstItem="ujZ-K8-Y7b" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nvL-gJ-YL4"/>
                             <constraint firstItem="jzT-BY-qym" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="oUo-Cl-ZyM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WRE-kX-svS" secondAttribute="bottom" constant="167" id="vzk-gS-Pz7"/>
+                            <constraint firstItem="ujZ-K8-Y7b" firstAttribute="top" relation="greaterThanOrEqual" secondItem="WRE-kX-svS" secondAttribute="bottom" constant="8" symbolic="YES" id="wJz-wq-NUF"/>
                         </constraints>
                     </view>
                     <connections>
