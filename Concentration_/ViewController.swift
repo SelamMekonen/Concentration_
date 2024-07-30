@@ -24,9 +24,14 @@ class ViewController: UIViewController
         }
     }
     
-    @IBOutlet private weak var flipCountLabel: UILabel!
+
+   private var emojiChoices = ["👻","🎃","😱","🤡","😈", "🤖", "🍭", "🍬", "🍎"]
     
+    private var emoji = Dictionary<Int,String>()
+    
+    @IBOutlet private weak var flipCountLabel: UILabel!
     @IBOutlet private var cardButtons: [UIButton]!
+
     
     
     @IBAction private func touchCard(_ sender: UIButton) {
@@ -57,9 +62,7 @@ class ViewController: UIViewController
         }
     }
     
-    private var emojiChoices = ["👻","🎃","😱","🤡","😈", "🤖", "🍭", "🍬", "🍎"]
-    
-    private var emoji = Dictionary<Int,String>()
+
     
     private func emoji(for card : Card) -> String {
         
@@ -72,15 +75,16 @@ class ViewController: UIViewController
     }
     //TODO: Restart Game
     
-    @IBAction func TouchedRestartButton(_ sender: UIButton) {
+    @IBAction func touchedRestartButton(_ sender: UIButton) {
         game.restartGame()
         flipCount = 0
         updateViewFromModel()
     }
+  }
     
     
         
-    }
+
 
 
 extension Int{
@@ -93,7 +97,8 @@ extension Int{
             return 0
         }
     }
-}
+
+
     
 
 

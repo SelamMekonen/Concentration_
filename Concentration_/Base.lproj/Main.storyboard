@@ -2,7 +2,8 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -146,7 +147,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRE-kX-svS">
-                                <rect key="frame" x="129.66666666666669" y="642.66666666666663" width="168.66666666666669" height="82.333333333333371"/>
+                                <rect key="frame" x="129.66666666666666" y="676.66666666666663" width="168.99999999999997" height="48.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="New Game">
                                     <backgroundConfiguration key="background">
@@ -155,7 +156,7 @@
                                     <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="30"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="TouchedRestartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6su-mL-vBG"/>
+                                    <action selector="touchedRestartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6su-mL-vBG"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujZ-K8-Y7b">
@@ -169,9 +170,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ujZ-K8-Y7b" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jzT-BY-qym" secondAttribute="bottom" constant="8" symbolic="YES" id="1he-ut-7fF"/>
-                            <constraint firstItem="WRE-kX-svS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jzT-BY-qym" secondAttribute="bottom" constant="8" symbolic="YES" id="2WY-X4-UQV"/>
-                            <constraint firstItem="WRE-kX-svS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129.66666666666666" id="7fn-2X-Dgh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WRE-kX-svS" secondAttribute="trailing" constant="129.66666666666663" id="98m-jh-7EP"/>
+//here                  
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jzT-BY-qym" secondAttribute="trailing" constant="16" id="GKi-JD-eZG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ujZ-K8-Y7b" secondAttribute="bottom" constant="64" id="Ndo-Wf-kBg"/>
                             <constraint firstItem="jzT-BY-qym" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XCo-mr-bpC"/>
@@ -205,7 +204,7 @@
     </scenes>
     <resources>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
