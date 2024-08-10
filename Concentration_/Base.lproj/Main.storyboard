@@ -165,15 +165,24 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEQ-2D-X50">
+                                <rect key="frame" x="170.66666666666666" y="569.66666666666663" width="86.999999999999972" height="38.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ujZ-K8-Y7b" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jzT-BY-qym" secondAttribute="bottom" constant="8" symbolic="YES" id="1he-ut-7fF"/>
+                            <constraint firstItem="WRE-kX-svS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="lEQ-2D-X50" secondAttribute="bottom" constant="8" symbolic="YES" id="AD7-hv-8FN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jzT-BY-qym" secondAttribute="trailing" constant="16" id="GKi-JD-eZG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ujZ-K8-Y7b" secondAttribute="bottom" constant="64" id="Ndo-Wf-kBg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lEQ-2D-X50" secondAttribute="bottom" constant="284" id="WNT-eb-ucf"/>
                             <constraint firstItem="jzT-BY-qym" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XCo-mr-bpC"/>
                             <constraint firstItem="WRE-kX-svS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bS9-Aq-8OD"/>
+                            <constraint firstItem="lEQ-2D-X50" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="i1m-19-8xV"/>
                             <constraint firstItem="ujZ-K8-Y7b" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nvL-gJ-YL4"/>
                             <constraint firstItem="jzT-BY-qym" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="oUo-Cl-ZyM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WRE-kX-svS" secondAttribute="bottom" constant="167" id="vzk-gS-Pz7"/>
@@ -182,6 +191,7 @@
                     </view>
                     <connections>
                         <outlet property="flipCountLabel" destination="ujZ-K8-Y7b" id="SXB-Qg-vvu"/>
+                        <outlet property="scoreLable" destination="lEQ-2D-X50" id="Sgq-XL-r93"/>
                         <outletCollection property="cardButtons" destination="uhH-2i-s6X" collectionClass="NSMutableArray" id="AHJ-f1-gMY"/>
                         <outletCollection property="cardButtons" destination="GGK-5q-xqc" collectionClass="NSMutableArray" id="yce-Og-POz"/>
                         <outletCollection property="cardButtons" destination="w1n-Z6-Qiq" collectionClass="NSMutableArray" id="VNK-ZA-4qO"/>
